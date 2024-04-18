@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Kotagiri Trek Ooty",
+        "imageURL": "https://res.cloudinary.com/tripbae/images/w_448,h_329,dpr_1.25/f_auto,q_auto/v1684839016/Skandagiri-trek-entry-fee-from-bangalore/Skandagiri-trek-entry-fee-from-bangalore.webp?_i=AA",
+        "rating": 4.5,
+        "duration": "2 Days 3 Nights",
+        "budget": "3000"
+    },
+
+    {
+        "id": 2,
+        "name": "Dandeli River Rafting and Camping",
+        "imageURL": "https://tripbae.com/wp-content/uploads/2021/09/Dandeli-tourist-places-dandeli-resorts-Dandeli-distance-Things-to-do-in-dandeli-Dandeli-rafting-dandeli-trip-dandeli-packages-dandeli-resorts-with-swimming-pool-dandeli-resorts-price-list-1-680x500.webp",
+        "rating": 4,
+        "duration": "2 Days 3 Nights",
+        "budget": "2500"
+    },
+
+    {
+        "id": 3,
+        "name": "Kollukkumalai Sunrise Trek & Munnar Adventure",
+        "imageURL": "https://tripbae.com/wp-content/uploads/2023/08/Munnar-places-to-stay-with-friends-unique-places-to-stay-in-munnar-munnar-hotels-low-price-best-places-to-stay-in-munnar-homestay-in-munnar-munnar-hotels-near-city-center-hotels-in-munnar-near-bus-stand-1-680x500.webp",
+        "rating": 5,
+        "duration": "2 Days 3 Nights",
+        "budget": "2200"
+    }
+]

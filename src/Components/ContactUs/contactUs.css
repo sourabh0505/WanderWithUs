@@ -1,0 +1,124 @@
+.contact-banner{
+    height: 15rem;
+    position: relative;
+}
+
+.contact-banner > div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-banner div > h1{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: white;
+    font-size: 2rem;
+}
+
+.contact-banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media(max-width: 768px) {
+    .contact-banner > div > h1{
+        left: 10%;
+    }
+}
+
+/* contact-form styles */
+
+.contact-form{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 4rem 0;
+    gap: 12rem;
+    justify-content: center;
+}
+
+.contact-form-div{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+}
+
+.contact-form-div > .contact-form-heading > h4{
+    color: gray;
+    font-weight: 300;
+}
+
+.contact-form-inputs{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
+
+.contact-form-inputs > input{   
+    height: 2rem;
+    border: 1px solid black;
+}
+
+.contact-form-inputs input:nth-child(5){
+    height: 8rem;
+}
+
+.contact-info-div{
+    width: 30%;
+    position: relative;
+}
+
+.contact-info-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inner-info-div{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    right: 40%;
+    top: 10%;
+    color: white;
+}
+
+.submit-btn button{
+    width: 8rem;
+    height: 2rem;
+    background-color: #1679AB;
+    border: none;
+    font-weight: 800;
+    border-radius: .2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media(max-width: 768px) {
+    .contact-form{
+        flex-flow: column nowrap;
+        gap: 4rem;
+        padding: 2rem;
+    }
+    .contact-info-div{
+        width: 100%;
+        height: 20rem;
+    }
+    .inner-info-div{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+    }
+    .submit-btn{
+        margin: 0 auto;
+    }
+}

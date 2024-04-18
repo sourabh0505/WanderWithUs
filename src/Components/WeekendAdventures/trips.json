@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Coorg Trip – The Scotland of India",
+        "imageURL": "https://tripbae.com/wp-content/uploads/2023/11/coorg-resorts-bangalore-to-coorg-places-to-visit-in-coorg-coorg-is-famous-for-coorg-wikipedia-coorg-hotels-best-time-to-visit-coorg-coorg-temperature-Coorg-resorts-packages-Coorg-resorts-luxury-coorg-1-680x500.webp",
+        "rating": 4,
+        "duration": "2 Days 2 Nights",
+        "budget": "2500"
+    },
+
+    {
+        "id": 2,
+        "name": "Wayanad Adventure",
+        "imageURL": "https://tripbae.com/wp-content/uploads/2023/02/Wayanad-airbnb-with-private-pool-Wayanad-airbnb-luxury-Wayanad-airbnb-for-couples-Best-wayanad-airbnb-wayanad-homestay-airbnb-wayanad-kalpetta-wayanad-tree-house-airbnb-airbnb-wayanad-Wayanad-stay-price-1-680x500.webp",
+        "rating": 4.2,
+        "duration": "2 Days 1 Nights",
+        "budget": "2000"
+    },
+
+    {
+        "id": 3,
+        "name": "Gokarna Beach Trek",
+        "imageURL": "https://tripbae.com/wp-content/uploads/2021/09/gokarna-beach-which-state-gokarna-hotels-places-to-visit-in-gokarna-how-to-reach-gokarna-gokarna-resorts-gokarna-maharashtra-places-to-visit-in-gokarna-at-night-gokarna-resorts-1-680x500.webp",
+        "rating": 4.5,
+        "duration": "2 Days 1 Nights",
+        "budget": "1800"
+    }
+]

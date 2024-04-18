@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Coorg Trip – The Scotland of India",
+        "imageURL": "https://tripbae.com/wp-content/uploads/2023/11/coorg-resorts-bangalore-to-coorg-places-to-visit-in-coorg-coorg-is-famous-for-coorg-wikipedia-coorg-hotels-best-time-to-visit-coorg-coorg-temperature-Coorg-resorts-packages-Coorg-resorts-luxury-coorg-1-680x500.webp",
+        "rating": 4,
+        "duration": "2 Days 2 Nights",
+        "budget": "2500"
+    },
+
+    {
+        "id": 2,
+        "name": "Kodaikanal Adventure",
+        "imageURL": "https://tripbae.com/wp-content/uploads/2023/08/kodaikanal-resorts-for-family-kodaikanal-resorts-for-couples-kodaikanal-resorts-with-pool-kodaikanal-resorts-price-list-Kodaikanal-resorts-luxury-Kodaikanal-resorts-packages-kodaikana-1-680x500.webp",
+        "rating": 3,
+        "duration": "1 Days 1 Nights",
+        "budget": "2000"
+    },
+
+    {
+        "id": 3,
+        "name": "Kollukkumalai Sunrise Trek & Munnar Adventure",
+        "imageURL": "https://tripbae.com/wp-content/uploads/2023/08/Munnar-places-to-stay-with-friends-unique-places-to-stay-in-munnar-munnar-hotels-low-price-best-places-to-stay-in-munnar-homestay-in-munnar-munnar-hotels-near-city-center-hotels-in-munnar-near-bus-stand-1-680x500.webp",
+        "rating": 5,
+        "duration": "2 Days 3 Nights",
+        "budget": "2200"
+    }
+]

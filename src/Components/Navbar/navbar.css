@@ -1,0 +1,79 @@
+.nav-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: end;
+  text-align: center;
+  background-color: #1679AB;
+  padding: 0 1rem .5rem;
+}
+
+.web-logo{
+  display: flex;
+  flex-flow: column nowrap;
+  font-weight: 600;
+  color: white;
+}
+
+.web-logo .logo-icon{
+  width: 3rem;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #1679AB;
+}
+
+.nav-links, .authenticate-user{
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 2rem;
+}
+
+.nav-links a, .authenticate-user a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:hover, .authenticate-user a:hover{
+  color: #5BBCFF;
+  cursor: pointer;
+}
+
+.hamburger-menu{
+  display: none;
+}
+
+.hamburger-menu .responsive-nav{
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  text-align: start;
+  background-color: #1679AB;
+  padding: 1rem;
+}
+
+.responsive-nav a{
+  color: white;
+  text-decoration: none;
+}
+
+.responsive-nav{
+  display: none;
+  position: absolute;
+  top: 95px;
+  left: 0;
+  z-index: 1;
+}
+
+@media (max-width: 996px) {
+  .nav-links, .authenticate-user{
+    display: none;
+  }
+  .hamburger-menu{
+    display: block;
+    color: white;
+  }
+  .responsive-nav{
+    min-width: 80%;
+  }
+}

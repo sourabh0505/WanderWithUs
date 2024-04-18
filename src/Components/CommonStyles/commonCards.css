@@ -1,0 +1,96 @@
+.trip-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .trip-component{
+    max-width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+  }
+  
+  .trip-component .trip-image img{
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .trip-image{
+    overflow: hidden;
+  }
+
+  .trip-image img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .trip-component h4{
+    color: gray;
+    font-weight: 500;
+  }
+  
+  .trip-details{
+    padding: 0 .5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .5rem;
+  }
+  
+  .trip-duration{
+    display: flex;
+    gap: .2rem;
+    align-items: center;
+    color: rgb(85, 84, 84);
+  }
+  
+  .trip-duration h4{
+    font-weight: 400;
+  }
+  
+  .trip-cost{
+    display: flex;
+    align-items: center;
+  }
+  
+  .trip-cost h4{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-right: .5rem;
+  }
+  
+  .trip-cost h2{
+    font-weight: 400;
+  }
+  
+  .trip-details > div:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .trip-details div:nth-child(1) > h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  
+  .trip-reviews{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+  }
+  
+  @media(max-width: 768px) {
+    .trip-container{
+      flex-flow: column nowrap;
+    }
+    .trip-component{
+      max-width: 100%;
+    }
+    .LongAdventures-heading hr, .upcomingAdventures-heading hr, .weekendAdventures-heading hr{
+      display: none;
+    }
+    .weekendAdventures-heading, .upcomingAdventures-heading, .LongAdventures-heading{
+      text-align: center;
+    }
+  }
