@@ -44,7 +44,7 @@ function Footer() {
                     <hr />
                     <div>
                         <p>Call Us</p>
-                        <p>+91-7728974846</p>
+                        <p>+91-77289-74846</p>
                     </div>
                 </div>
 

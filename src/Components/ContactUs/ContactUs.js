@@ -37,9 +37,9 @@ function ContactUs() {
             <h1>WanderWithUs</h1>
 
             <div>
-              <h4>Tell. +91 991 662 7799</h4>
-              <h4>Email : hello@tripbae.com</h4>
-              <h4>#858, 4th Floor, Dr.Vishnuvardhan Rd, Channasandra, Rajrajeshwari Nagar, Bengaluru, Karnataka, India 560098</h4>
+              <h4>Tell. +91 77289-74846</h4>
+              <h4>Email : hello@wanderwithus.com</h4>
+              <h4>Shop No. 24, Near Apsara Complex, Azad Chowk, Bhilwara, Rajasthan - 311001</h4>
             </div>
           </div>
         </div>

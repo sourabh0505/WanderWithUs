@@ -11,8 +11,10 @@ import LongAdventures from './Components/LongAdventures/LongAdventures';
 import ContactUs from './Components/ContactUs/ContactUs';
 import AboutUs from './Components/AboutUs/AboutUs';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import SignupPage from './Components/SignupPage/SignupPage';
 
 function App() {
+
   return (
     <div className="App">
       <Router>
@@ -21,6 +23,7 @@ function App() {
           <Route exact path='/' element={<><AppBanner/> <UpcomingAdventures/> <WeekendAdventures/> <LongAdventures/> <WhyChooseUs/> <TripPlanning/></>}></Route>
           <Route path='/contactus' element={<ContactUs/>}></Route>
           <Route path='/aboutus' element={<AboutUs/>}></Route>
+          <Route path='/signup-user' element={<SignupPage/>}></Route>
       </Routes>
       <Newsletter/>
       <Footer/>

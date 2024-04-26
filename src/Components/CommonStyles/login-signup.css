@@ -1,0 +1,135 @@
+.loginpage-container, .signuppage-container{
+    width: 30rem;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px solid lightgray;
+    padding: 2rem;
+    gap: 1rem;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 15%;
+    left: 33%;
+}
+
+.loginpage-heading, .signuppage-heading{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.loginpage-heading > h2, .signuppage-heading > h2{
+    font-weight: 500;
+}
+
+.loginpage-container svg, .signuppage-container svg{
+    cursor: pointer;
+}
+
+.loginform-input, .signupform-input{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
+
+.loginform-input > div:nth-child(1), .loginform-input > div:nth-child(2), .signupform-input > div:nth-child(1), .signupform-input > div:nth-child(2), .signupform-input > div:nth-child(3){
+    display: flex;
+    flex-flow: row nowrap;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: .5rem 1rem;
+}
+
+.loginform-input input, .signupform-input input{
+    width: 30rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+}
+
+.login-button, .signup-button{
+    width: 30rem;
+    height: 3rem;
+    border: none;
+    background-color: #1679AB;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.login-footer, .signup-footer{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    font-size: small;
+    color: gray;
+}
+
+.login-footer > div:nth-child(1), .signup-footer > div:nth-child(1){
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.login-footer > div:nth-child(1) > div:first-child, .signup-footer > div:nth-child(1) > div:first-child{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: .5rem;
+}
+
+.login-footer > div:nth-child(2), .signup-footer > div:nth-child(2){
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.login-footer > div:nth-child(1) > div:nth-child(2) > a, .login-footer > div:nth-child(2) > h3 > a, .signup-footer > div:nth-child(1) > div:nth-child(2) > a, .signup-footer > div:nth-child(2) > h3 > a{
+    text-decoration: none;
+    color: #1679AB;
+    font-weight: 500;
+}
+
+@media(max-width: 500px) {
+    .loginpage-container, .signuppage-container{
+        width: 20rem;
+        top: 5%;
+        left: 3%;
+    }
+    .loginform-input input, .signupform-input input{
+        width: 20rem;
+    }
+    .login-button, .signup-button{
+        width: 20rem;
+    }
+    .loginform-input > div:nth-child(1), .loginform-input > div:nth-child(2), .signupform-input > div:nth-child(1), .signupform-input > div:nth-child(2), .signupform-input > div:nth-child(3){
+        gap: 5rem;
+    }
+}
+
+@media(max-width: 400px) {
+    .loginpage-container, .signuppage-container{
+        width: 20rem;
+        top: 5% !important;
+        left: 3% !important;
+    }
+    .loginform-input input, .signupform-input input{
+        width: 20rem;
+    }
+    .login-button, .signup-button{
+        width: 20rem;
+    }
+    .loginform-input > div:nth-child(1), .loginform-input > div:nth-child(2), .signupform-input > div:nth-child(1), .signupform-input > div:nth-child(2), .signupform-input > div:nth-child(3){
+        gap: 5rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .loginpage-container, .signuppage-container{
+        top: 5%;
+        left: 16%;
+    }
+}

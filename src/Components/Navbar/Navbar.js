@@ -5,15 +5,29 @@ import Lottie from "lottie-react";
 import animationData from "./globe-animation.json";
 import { Link } from "react-router-dom";
 import { Link as Scrolllink} from "react-scroll";
+import LoginPage from '../LoginPage/LoginPage';
+import SignupPage from "../SignupPage/SignupPage";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [showLogin, setShowLogin] = useState(false);
+  const [showSignup, setShowSignup] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-  return (
+
+  const toggleLogin = () => {
+    setShowLogin(!showLogin);
+  };
+
+  const toggleSignup = () => {
+    setShowSignup(!showSignup);
+  };
+
+
+  return (<>
     <header className="nav-container">
       <div className="web-logo">
         <Lottie className="logo-icon" animationData={animationData} />
@@ -51,11 +65,11 @@ function Navbar() {
       </ul>
 
       <ul className="authenticate-user">
-        <Link to="/login-user">
-          <a href="/login-user">LOGIN</a>
+        <Link>
+          <a onClick={toggleLogin}>LOGIN</a>
         </Link>
-        <Link to="/signup-user">
-          <a href="/signup-user">SIGN UP</a>
+        <Link>
+          <a onClick={toggleSignup}>SIGN UP</a>
         </Link>
       </ul>
 
@@ -90,15 +104,19 @@ function Navbar() {
           <Link to="/aboutus">
             <a href="/aboutus">ABOUT</a>
           </Link>
-          <Link to="/login-user">
-            <a href="/login-user">LOGIN</a>
+          <Link>
+            <a onClick={toggleLogin}>LOGIN</a>
           </Link>
-          <Link to="/signup-user">
-            <a href="/signup-user">SIGN UP</a>
+          <Link>
+            <a onClick={toggleSignup}>SIGN UP</a>
           </Link>
         </ul>
       </div>
+
+      {showLogin && <LoginPage onClose={toggleLogin} />}
+      {showSignup && <SignupPage onClose={toggleSignup} />}
     </header>
+    </>
   );
 }
 
