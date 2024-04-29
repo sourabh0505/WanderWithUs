@@ -12,6 +12,7 @@ import ContactUs from './Components/ContactUs/ContactUs';
 import AboutUs from './Components/AboutUs/AboutUs';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import SignupPage from './Components/SignupPage/SignupPage';
+import ProductPage from './Components/UpcomingAdventureProductPage/ProductPage';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route path='/contactus' element={<ContactUs/>}></Route>
           <Route path='/aboutus' element={<AboutUs/>}></Route>
           <Route path='/signup-user' element={<SignupPage/>}></Route>
+          <Route path='/productpage/:name' element={<ProductPage/>}></Route>
       </Routes>
       <Newsletter/>
       <Footer/>

@@ -1,28 +1,130 @@
 [
-    {
-        "id": 1,
-        "name": "Coorg Trip – The Scotland of India",
-        "imageURL": "https://tripbae.com/wp-content/uploads/2023/11/coorg-resorts-bangalore-to-coorg-places-to-visit-in-coorg-coorg-is-famous-for-coorg-wikipedia-coorg-hotels-best-time-to-visit-coorg-coorg-temperature-Coorg-resorts-packages-Coorg-resorts-luxury-coorg-1-680x500.webp",
-        "rating": 4,
-        "duration": "2 Days 2 Nights",
-        "budget": "2500"
-    },
+  {
+    "id": 1,
+    "name": "Coorg Trip – The Scotland of India",
+    "location": "Coorg",
+    "imageURL": "https://tripbae.com/wp-content/uploads/2023/11/coorg-resorts-bangalore-to-coorg-places-to-visit-in-coorg-coorg-is-famous-for-coorg-wikipedia-coorg-hotels-best-time-to-visit-coorg-coorg-temperature-Coorg-resorts-packages-Coorg-resorts-luxury-coorg-1-680x500.webp",
+    "rating": 4,
+    "duration": "2 Days 2 Nights",
+    "budget": "2500",
+    "overview": [
+      "Something about Coorg just screams complete relaxation. To experience that kind of relaxation, take a look at the itinerary and book this 2-day Coorg trip!",
 
-    {
-        "id": 2,
-        "name": "Kodaikanal Adventure",
-        "imageURL": "https://tripbae.com/wp-content/uploads/2023/08/kodaikanal-resorts-for-family-kodaikanal-resorts-for-couples-kodaikanal-resorts-with-pool-kodaikanal-resorts-price-list-Kodaikanal-resorts-luxury-Kodaikanal-resorts-packages-kodaikana-1-680x500.webp",
-        "rating": 3,
-        "duration": "1 Days 1 Nights",
-        "budget": "2000"
-    },
+      "Everyone yearns to feel like they’re 22, where nothing matters, everything is fine, and you feel just right. Coorg embodies that ageless spirit. A Coorg trip with Tripbae will immerse you in a tribe that perpetually feels young, keeping the vibe consistently great. There’s excitement when needed, coupled with a deep, relaxing experience akin to a massage, leaving your colleagues wondering about your weekend secrets for such Monday happiness. Want a happy Monday? Well, you’ll need to invest in a great weekend.",
 
-    {
-        "id": 3,
-        "name": "Kollukkumalai Sunrise Trek & Munnar Adventure",
-        "imageURL": "https://tripbae.com/wp-content/uploads/2023/08/Munnar-places-to-stay-with-friends-unique-places-to-stay-in-munnar-munnar-hotels-low-price-best-places-to-stay-in-munnar-homestay-in-munnar-munnar-hotels-near-city-center-hotels-in-munnar-near-bus-stand-1-680x500.webp",
-        "rating": 5,
-        "duration": "2 Days 3 Nights",
-        "budget": "2200"
-    }
+      "Coorg, officially known as Kodagu, is nestled in the Western Ghats of Karnataka, India. This picturesque district is characterized by its verdant hills, coffee plantations, and lush landscapes. With an elevation ranging from 900 to 1,750 meters above sea level, Coorg’s geographical location contributes to its cool climate and breathtaking natural beauty.",
+
+      "On Day 1, we kick things off with a visit to the Mandalpatti View Point to soak in the breathtaking scenery. From there, we make our way to Abbey Falls to snap some incredible photos and then head to the Raja Seat for a front-row seat to a spectacular sunset. To round off the day on a high note, we take a leisurely stroll through the vibrant Coorg market. Moving on to Day 2, we venture to the Kushal Nagar Elephant Camp to spend quality time with those lovable and majestic giants. After that heartwarming experience, we add a touch of grace to our trip with a visit to the Namdroling Monastery before making our way back to Bengaluru.",
+
+      "We expect a certain level of cooperation from our fellow hikers. Your attentiveness to the basic requests from the Trek Lead is crucial for ensuring the safety of the entire group. At Tripbae, we do the best we can to benefit the group collectively."
+    ],
+    "bulletPoints": [
+      "Mandalpatti View Point",
+      "Abbey Falls",
+      "Raja Seat",
+      "Coorg Street Market",
+      "Kushal Nagar Harangi Elephant Camp",
+      "Namdroling Monastery"
+    ],
+    "amenetiesIncluded": [
+      "To and fro transport from Bengaluru (Non-A/c)",
+      "Only Veg Food",
+      "Dorms Stay",
+      "Trek Leads from the Tripbae Team",
+      "Forest/Trek Permits",
+      "Basic First Aid Kit"
+    ],
+    "amenetiesExcluded": [
+      "Any kind of Insurance",
+      "Any Eatables (snacks, mineral water, etc) (at least not officially)",
+      "Anything not included in the included section"
+    ]
+  },
+
+  {
+    "id": 2,
+    "name": "Kodaikanal Adventure",
+    "location": "Kodaikanal",
+    "imageURL": "https://tripbae.com/wp-content/uploads/2023/08/kodaikanal-resorts-for-family-kodaikanal-resorts-for-couples-kodaikanal-resorts-with-pool-kodaikanal-resorts-price-list-Kodaikanal-resorts-luxury-Kodaikanal-resorts-packages-kodaikana-1-680x500.webp",
+    "rating": 3,
+    "duration": "1 Days 1 Nights",
+    "budget": "2000",
+    "overview": [
+      "Set off on an extraordinary four-day exploration from the vibrant city of Bengaluru to the tranquil beauty of Kodaikanal, famously known as the “Princess of Hill Stations.” This well-curated itinerary caters to those aiming to delve into Kodaikanal’s captivating natural allure, rich culture, and stimulating activities. Our voyage encompasses some of Kodaikanal’s must-see landmarks such as Bear Shola Waterfalls, Upper Lake View Point, Dolphin’s Nose, and Pillar Rocks Viewpoint. Submerge yourself into the local ambiance with a tour of a traditional coffee plantation and widen your understanding at the Kodaikanal Solar Observatory. Supplemental activities like boating lend an element of thrill to the itinerary. Evenings promise relaxation and camaraderie at the campsite, accentuated by a comforting campfire. Merging leisure, adventure, and exploration, this 4-day journey from Bengaluru to Kodaikanal assures unforgettable experiences and memories that appeal to every wanderlust soul."
+    ],
+    "bulletPoints": [
+      "Guna Caves",
+      "Moir Point",
+      "Coaker's Walk",
+      "Silver cascade Falls",
+      "Poombarai View point",
+      "Kodaikanal Solar Observatory Museum"
+    ],
+    "amenetiesIncluded": [
+      "Comfortable round-trip transportation",
+      "Visit to iconic landmarks",
+      "A tour to a traditional coffee plantation",
+      "A trip to the Kodaikanal Solar Observatory",
+      "Tranquil evenings at the campsite",
+      "Accommodation: Dorms",
+      "Assistance from experienced tour guides"
+    ],
+    "amenetiesExcluded": [
+      "Meals not explicitly included in the itinerary",
+      "Personal expenses such as shopping, souvenirs, etc.",
+      "Optional activities not listed in the itinerary",
+      "Any kind of insurances",
+      "Entrance fees at sightseeing spots and national parks",
+      "Extra charges incurred due to unforeseen circumstances",
+      "Anything not mentioned in the Included section of the tour details"
+    ]
+  },
+
+  {
+    "id": 3,
+    "name": "Kollukkumalai Sunrise Trek & Munnar Adventure",
+    "location": "Kollukkumalai",
+    "imageURL": "https://tripbae.com/wp-content/uploads/2023/08/Munnar-places-to-stay-with-friends-unique-places-to-stay-in-munnar-munnar-hotels-low-price-best-places-to-stay-in-munnar-homestay-in-munnar-munnar-hotels-near-city-center-hotels-in-munnar-near-bus-stand-1-680x500.webp",
+    "rating": 5,
+    "duration": "2 Days 3 Nights",
+    "budget": "2200",
+    "overview": [
+      "Are you prepared for two days of tranquility? Give yourself the gift of stress-free “Me-time” and embark on a journey into happiness with our exhilarating Munnar Adventure that includes a Kollukkumalai Sunrise Trek! Zip-line your way to bliss and join us for this divine experience.",
+
+      "Munnar, situated in the Idukki district of the southwestern Indian state of Kerala, is both a town and a hill station. Positioned at an altitude of approximately 1,600 meters (5,200 feet) above mean sea level, Munnar is nestled within the Western Ghats mountain range. Often referred to as the “Kashmir of South India”,  it has earned popularity as a sought-after honeymoon destination.",
+
+      "On Day 1, we’ll kick off the adventure with thrilling activities like zip-lining and kayaking. Following the excitement, we’ll visit Mirchi Waterfalls and conclude the day by enjoying the sunset at Phantom Hill Sunset Point.",
+
+      "On Day 2, we’ll start early by heading to the Kollukulamai Sunrise Point to witness the sunrise, followed by a visit to Jaguar View Point. Next on the itinerary is Signal View Point, offering panoramic views of the Munnar Valley. We’ll then explore the Chocolate Factory and take some time for shopping in Munnar City before heading back to Bengaluru.",
+
+      "We expect a certain level of cooperation from our fellow hikers. Your attentiveness to the basic requests from the Trek Lead is crucial for ensuring the safety of the entire group. At Tripbae, we do the best we can to benefit the group collectively."
+    ],
+    "bulletPoints": [
+      "Kayaking and Zip-lining",
+      "Tea Factory",
+      "Phantom Hill Sunset Point",
+      "Kollukumalai Sunrise Trek",
+      "Jaguar Rock Viewpoint",
+      "Signal Point",
+      "Chocolate Factory",
+      "Eravikulam National Park",
+      "Campfire"
+    ],
+    "amenetiesIncluded": [
+      "To and fro transport from Bangalore (Non A/c)",
+      "Accommodation: only tent stay",
+      "Experienced Guide from the Tripbae team",
+      "2 Breakfast, 1 Dinner",
+      "Forest/Trek Guide",
+      "Basic first aid kit",
+      "Campfire"
+    ],
+    "amenetiesExcluded": [
+      "Any insurance (health, medical, life accidental,etc",
+      "Additional Adventure / Water Activities",
+      "Sightseeing Entry Charges",
+      "Any personal expense",
+      "Anything not included above"
+    ]
+  }
 ]
